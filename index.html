@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addiction Remover</title>
+  <style>
+    body{width:350px}
+    .websiteList span{
+      background: grey;
+      margin: 1%;
+      color: white;
+    }
+    .websiteList span:hover{
+      background: green;
+      margin: 1%;
+      cursor: pointer;
+    }
+    .websiteList li{
+      margin-bottom: 1%;
+      list-style: none;
+      border-bottom: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <div class="new-item">
+    <input type="text" id="input">
+    <button class="saveBtn">SAVE</button>
+  </div>
+  <h1>Block This Shits!</h1>
+
+  <ul class="websiteList">
+  </ul>
+
+  <script type="module" src="script.js"></script>
+  
+</body>
+</html>
